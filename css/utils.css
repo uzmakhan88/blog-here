@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Roboto+Slab&family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+:root {
+    --main-bg-color:orange ;
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+.center{
+    text-align: center;
+}
+
+.m-auto {
+    margin: auto;
+}
+.my-2{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.form-input {
+    padding: 0 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 4px;
+    font-family: var(--font1);
+    padding-top: 3px;
+
+}
+.form-box input,textarea{
+    width: 52vw;
+    padding: 10px 7px;
+    margin: 7px 0;
+    font-size: 18px;
+    border: 2px solid rgb(246, 212, 148);
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 0px 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    padding-top: 3px;
+
+}
+
+.btn:hover {
+    color: white;
+    background: var(--main-bg-color);
+    transition: all 0.3s ease-in-out;
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
